@@ -17,7 +17,7 @@ print(F"Molecule SMILES: {molecule.smiles}\nLGFR backbone SMILES: {lgfr_molecule
 
 other_molecule = BestMol("C1=CC=CC2=C1C=CC=C2")
 
-print(F"Molecule has this substructure {molecule.has(other_molecule.mol}")
+print(F"Molecule has this substructure {molecule.has(other_molecule.mol)}")
 
 ```
 

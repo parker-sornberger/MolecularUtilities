@@ -1,10 +1,10 @@
 # MolecularUtilities
 
 
-**BestMol**
+**Molecule**
 * Utility wrapper for RDKit
 
-**BestMol Examples**
+**Molecule Examples**
 
 ```python
 from molutils import Molecule
@@ -30,4 +30,24 @@ print(F"This molecule, {molecule['name']}, has {len(molecule)} atoms and {molecu
 * A wrapper for Molecule where a few properties are prebaked for convenience
 
 
+
+*From Group or Fuse*
+
+**MolGrouper**
+
+
+
+
+**MolJoiner**
+
+
+
+**MolFuser**
+
+
+**NaivePolymerBuilder**
+
+
+
+**Broad To-Do List**
 
